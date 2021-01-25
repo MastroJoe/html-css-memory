@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ADD8E6;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#title{
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 40px;
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 1px 2px gray;
+  }
+
+.foot {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+[class^="card"] {
+  background-image: url("../img/pattern.png");
+  border: 1px solid gray;
+  height: 200px;
+  width: 175px;
+  margin-left: 25px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+p {
+  font-family: 'Fredoka One';
+}
